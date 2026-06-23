@@ -13,7 +13,7 @@ RAZORPAY_KEY_SECRET = os.environ.get('RAZORPAY_KEY_SECRET', 'dummy_secret_12345'
 app = Flask(__name__)
 CORS(app)
 
-GROQ_API_KEY = os.environ.get('GROQ_API_KEY', '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')
+GROQ_API_KEY = os.environ.get('GROQ_API_KEY', '')
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
 
